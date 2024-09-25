@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "iot-test-protocol"
+version = "0.1.0"
+description = ""
+authors = ["Abramov Evgeniy <61637662+iriswolf@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+struc = {git = "https://github.com/Inocustonner/struc.git"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
